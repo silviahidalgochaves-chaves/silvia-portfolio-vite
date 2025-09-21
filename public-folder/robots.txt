@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://silviahidalgochaves.com/sitemap.xml
