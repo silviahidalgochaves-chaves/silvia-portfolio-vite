@@ -3,15 +3,15 @@ import { Mail, Linkedin, Download, Globe, Megaphone, Users, Rocket, LineChart, B
 
 // --- DATA: customize this block with your info ---
 const DATA = {
-  name: "Silvia Chaves",
-  title: "VP Marketing | Consumer Growth & Brand Leader",
-  tagline: "Driving consumer growth, loyalty & brand engagement at scale",
+  name: "Silvia Hidalgo-Chaves",
+  title: "VP Marketing | Consumer/B2B Growth & Brand Leader",
+  tagline: "Driving consumer,enterprise growth, loyalty & brand engagement at scale",
   location: "New York, NY (Open to Remote)",
-  email: "youremail@example.com",
-  linkedin: "https://www.linkedin.com/in/your-handle/",
-  website: "https://yourdomain.com",
-  resumeUrl: "#", // replace with a real PDF link
-  headshot: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop", // placeholder
+  email: "silviahidalgochaves@gmail.com",
+  linkedin: "https://www.linkedin.com/in/silviahidagochaves/",
+  website: "https://silviahidalgochaves.com",
+  resumeUrl: "/resume.pdf?v=2"
+  headshot: "/headshot.jpg?v=2"
   highlights: [
     { icon: <LineChart className="w-5 h-5"/>, text: "15% YoY portfolio growth via integrated campaigns (Synchrony)" },
     { icon: <Rocket className="w-5 h-5"/>, text: "20+ national launches; 20% lift in acquisition (Verizon)" },
