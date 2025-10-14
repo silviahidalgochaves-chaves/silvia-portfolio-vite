@@ -3,15 +3,17 @@ import { Mail, Linkedin, Download, Globe, Megaphone, Users, Rocket, LineChart, B
 
 // --- DATA: customize this block with your info ---
 const DATA = {
+ // ...
   name: "Silvia Hidalgo-Chaves",
   title: "VP Marketing | Consumer/B2B Growth & Brand Leader",
   tagline: "Driving consumer,enterprise growth, loyalty & brand engagement at scale",
   location: "New York, NY (Open to Remote)",
   email: "silviahidalgochaves@gmail.com",
-  linkedin: "https://www.linkedin.com/in/silviahidagochaves/",
-  website: "https://silviahidalgochaves.com",
-  resumeUrl: "/resume.pdf?v=2"
-  headshot: "/headshot.jpg?v=2"
+  linkedin: "https://www.linkedin.com/in/silviahidalgochaves",
+  website: "https://www.linkedin.com/in/silviahidalgochaves",
+  resumeUrl: "https://silviahidalgochaves.com/resume.pdf?v=2",
+  headshot: ""https://silviahidalgochaves.com/headshot.jpg?v=2",
+};
   highlights: [
     { icon: <LineChart className="w-5 h-5"/>, text: "15% YoY portfolio growth via integrated campaigns (Synchrony)" },
     { icon: <Rocket className="w-5 h-5"/>, text: "20+ national launches; 20% lift in acquisition (Verizon)" },
