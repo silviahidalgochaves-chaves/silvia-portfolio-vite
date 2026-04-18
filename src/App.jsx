@@ -9,7 +9,7 @@ const DATA = {
   tagline: "Driving consumer,enterprise growth, loyalty & brand engagement at scale",
   location: "New York, NY (Open to Remote)",
   email: "silviahidalgochaves@gmail.com",
-  linkedin: "https://www.linkedin.com/in/silviahidalgochaves",
+  linkedin: "https://linkedin.com/in/silviahidalgochaves",
   website: "https://www.linkedin.com/in/silviahidalgochaves",
   resumeUrl: "https://silviahidalgochaves.com/resume.pdf?v=2",
   headshot: "https://silviahidalgochaves.com/headshot.jpg?v=2",
