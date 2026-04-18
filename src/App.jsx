@@ -12,7 +12,7 @@ const DATA = {
   linkedin: "https://www.linkedin.com/in/silviahidalgochaves",
   website: "https://www.linkedin.com/in/silviahidalgochaves",
   resumeUrl: "https://silviahidalgochaves.com/resume.pdf?v=2",
-  headshot: ""https://silviahidalgochaves.com/headshot.jpg?v=2",
+  headshot: "https://silviahidalgochaves.com/headshot.jpg?v=2",
 };
   highlights: [
     { icon: <LineChart className="w-5 h-5"/>, text: "15% YoY portfolio growth via integrated campaigns (Synchrony)" },
