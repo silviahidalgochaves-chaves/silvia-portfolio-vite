@@ -10,10 +10,9 @@ const DATA = {
   location: "New York, NY (Open to Remote)",
   email: "silviahidalgochaves@gmail.com",
   linkedin: "https://linkedin.com/in/silviahidalgochaves",
-  website: "https://www.linkedin.com/in/silviahidalgochaves",
+  website: "https://linkedin.com/in/silviahidalgochaves",
   resumeUrl: "https://silviahidalgochaves.com/resume.pdf?v=2",
   headshot: "https://silviahidalgochaves.com/headshot.jpg?v=2",
-};
   highlights: [
     { icon: <LineChart className="w-5 h-5"/>, text: "15% YoY portfolio growth via integrated campaigns (Synchrony)" },
     { icon: <Rocket className="w-5 h-5"/>, text: "20+ national launches; 20% lift in acquisition (Verizon)" },
@@ -70,7 +69,7 @@ const DATA = {
         "Tripled Hispanic subscriber growth in 8 months; extended lifecycle by 15 months.",
       ],
     },
-  ],
+ ],
   caseStudies: [
     {
       title: "Synchrony Portfolio Acceleration",
