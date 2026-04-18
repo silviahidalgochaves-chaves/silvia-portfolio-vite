@@ -14,10 +14,10 @@ const DATA = {
   resumeUrl: "https://silviahidalgochaves.com/resume.pdf?v=2",
   headshot: "https://silviahidalgochaves.com/headshot.jpg?v=2",
   highlights: [
-    { icon: <LineChart className="w-5 h-5"/>, text: "15% YoY portfolio growth via integrated campaigns (Synchrony)" },
-    { icon: <Rocket className="w-5 h-5"/>, text: "20+ national launches; 20% lift in acquisition (Verizon)" },
-    { icon: <Users className="w-5 h-5"/>, text: "Built & led teams 10–30+ across creative, PR, social, content" },
-    { icon: <Megaphone className="w-5 h-5"/>, text: "Brand governance: voice, design system, and editorial ops" },
+{ icon: LineChart, text: "..." },
+{ icon: Rocket, text: "..." },
+{ icon: Users, text: "..." },
+{ icon: Megaphone, text: "..." },
   ],
   skills: [
     "Corporate Brand Strategy", "PR/Comms & Thought Leadership", "Creative/Design Leadership",
@@ -223,12 +223,17 @@ export default function App() {
               <a href={DATA.linkedin} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl border px-5 py-3 hover:bg-black/5"><Linkedin className="w-4 h-4"/>LinkedIn</a>
             </div>
             <div className="mt-8 grid sm:grid-cols-2 gap-3">
-              {DATA.highlights.map((h, i) => (
-                <div key={i} className="flex items-start gap-3 rounded-xl border p-3">
-                  <div className="mt-0.5 text-slate-700">{h.icon}</div>
-                  <p className="text-sm">{h.text}</p>
-                </div>
-              ))}
+              {DATA.highlights.map((h, i) => {
+  const Icon = h.icon;
+  return (
+    <div key={i} className="flex items-start gap-3 rounded-xl border p-3">
+      <div className="mt-0.5 text-slate-700">
+        <Icon className="w-5 h-5" />
+      </div>
+      <p className="text-sm">{h.text}</p>
+    </div>
+  );
+})}
             </div>
           </div>
           <div className="relative">
